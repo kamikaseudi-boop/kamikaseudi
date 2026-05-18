@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADS-Python</title>
+</head><link rel="stylesheet" href="style.css">
+<body>
+   
+    <h1>ADS-2026</h1><br>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="exercicios_Python.html">Exercicios Python</a></li>
+                <li><a href="fluxoframa.html">Fluxogramas</a></li>
+                <li><a href="https://login.fatra.edu.br/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26scope%3Dkatana%2520offline_access%2520offline_access%2520katana%2520offline_access%26client_id%3DPortalAcademico%26client_secret%3DcentrisPortalACDPassword%26state%3D123456789%26redirect_uri%3Dhttps%253A%252F%252Fportal.fatra.edu.br%252F">Portal Fatra</a></li>
+            </ul>
+         <div class="container1">
+            <section>
+                <details>
+                    <summary>Exercício 1: Peça ao usuário para digitar seu nome e imprima uma mensagem de boas-vindas.</summary>
+                    <p>nome= input("Insira Seu Nome : ") <br>
+print("Olá", nome , "Seja Bem Vindo")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 2: Solicite ao usuário dois números e exiba a soma deles.</summary>
+                    <p>a= int(input("A =")) <br>
+b= int(input("B =")) <br>
+soma= a+b <br>
+print(f"A soma de a+b = {soma}")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 3: Peça ao usuário para digitar sua idade e exiba a idade em meses.</summary>
+                    <p>print("Insira Seus Dados")
+nome= input("Nome= ") <br>
+idade= float(input("Idade= ")) <br>
+Meses= (idade*12) <br>
+print(f"Sua idade {nome} é de {Meses} Meses")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 4: Solicite ao usuário seu nome e idade e exiba uma mensagem formatada.</summary>
+                    <p>print("Insira os Dados conforme Requisitado :") <br>
+nome= input("Nome Completo: ") <br>
+idade= input("Idade: ") <br>
+print(f"Nome: {nome}, Idade: {idade} Anos")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 5: Peça ao usuário para digitar uma frase e mostre a mesma frase em letras maiúsculas.</summary>
+                    <p>nfrase= input("insira uma frase : ") <br>
+print(frase.upper())</p>
+                </details>
+                 <details>
+                    <summary>Exercício 6: Solicite ao usuário seu nome completo e exiba a quantidade de caracteres que ele possui.</summary>
+                    <p>frase= input("Insira seu Nome Completo: ") <br>
+contador= len(frase) <br>
+print(contador)</p>
+                </details>
+                 <details>
+                    <summary>Exercício 7: Peça ao usuário para digitar três números e exiba a média deles</summary>
+                    <p>print("Insira os Dados Para Calcular Média") <br>
+a= float(input("Insira A= ")) <br>
+b= float(input("Insira B= ")) <br>
+c= float(input("Insira C= ")) <br>
+media= (a+b+c) /3 <br>
+print(f"A média de A,B e C é: {media}")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 8: Solicite ao usuário um número e exiba o quadrado desse número.</summary>
+                    <p>raiz=float(input("Insira o Numero: ")) <br>
+print(f"A raiz Quadrada é = {raiz*raiz}")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 9: Peça ao usuário para digitar uma palavra e exiba essa palavra ao contrário </summary>
+                    <p>print("Peça ao usuário para digitar uma palavra e exiba essa palavra ao contrário") <br>
+palvra=input("Insira a Palavra a ser editada: ") <br>
+tamanho=len(palvra) <br>
+i= tamanho-1 <br>
+for i in range(len(palvra)-1,-1,-1): <br>
+    print(palvra[i],end="") <br>
+    i-=1 <br>
+</p>
+                </details>
+                 <details>
+                    <summary>Exercício 10: Solicite ao usuário para digitar seu sobrenome e exiba uma mensagem de despedida personalizada.</summary>
+                    <p>sobrenome= input("Digite se sobrenome : ") <br>
+print("Seja bem vindo Sr: ",sobrenome.upper())</p>
+                </details>
+                 <details>
+                    <summary>Exercício 11: Peça ao usuário para digitar dois números e exiba o produto desses números. </summary>
+                    <p>a= float(input("Insira A: ")) <br>
+b= float(input("Insira B: ")) <br>
+print(f"O valor de A= {a} O valor de B= {b}")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 12: Solicite ao usuário um número e calcule a raiz quadrada desse número.</summary>
+                    <p>numero= float(input("Insira o Numero A ser Calculado a Raiz Quadrada: ")) <br>
+raiz= numero*numero <br>
+print(f"Araiz do Numero digitado é: {raiz}")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 13: Peça ao usuário três números e exiba o maior deles.</summary>
+                    <p>a= float(input("Insira A= ")) <br>
+b= float(input("Insira B= ")) <br>
+c= float(input("Insira C= ")) <br>
+if b>a: <br>
+    a=b <br>
+    if a>c: <br>
+        c=a <br>
+    
+print("O Maior Numero é:",a) <br>
+ 
+a= float(input("Insira A= ")) <br>
+b= float(input("Insira B= ")) <br>
+c= float(input("Insira C= ")) <br>
+maximo= max(a,b,c) <br>
+print(f"O maior valor digitado é: {maximo}")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 14: Solicite ao usuário o valor do raio de um círculo e calcule a área do círculo.</summary>
+                    <p>print("Vamos Calcular a Area de um Circulo !!!!") <br>
+raio= float(input("Insira o Raio do Circulo: ")) <br>
+area= (raio*raio) *3.14 <br>
+#pi= 3.14*area  seguinda opçao de execução <br>
+print (f"Area do Circulo é : {area}")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 15: Peça ao usuário dois números e exiba o quociente da divisão do primeiro pelo segundo.</summary>
+                    <p>print("DIVISÃO !!!!") <br>
+a= float(input("Insira o Primeiro coeficiente: ")) <br>
+b=float(input("Insira o segundo coeficiente: ")) <br>
+print ("O resultado é :",a/b)</p>
+                </details>
+                 <details>
+                    <summary>Exercício 16: Solicite ao usuário a base e a altura de um triângulo e calcule a área do triângulo.</summary>
+                    <p>print("Vamos Calcular a Area de Um Triangulo: ") <br>
+Base= float(input("Digite a base: ")) <br>
+Altura= float(input("Digite a Altura: ")) <br>
+area=(Base*Altura)/2 <br>
+print(f"A Area do Triangulo é: {area}")</p>
+                </details>
+                   <details>
+                    <summary>Exercício 17: Peça ao usuário para digitar dois números e calcule a diferença do maior pelo menor.</summary>
+                    <p>a= int(input("Isira o valor de A : ")) <br>
+b= int(input("Isira o valor de B : ")) <br>
+if a>b: <br>
+ print(f"A diferença do maior pelo menor é: {a-b}") <br>
+else: <br>
+ print(f"A diferença do maior pelo menor é: {b-a}")</p>
+                </details>
+                 <details>
+                    <summary>Exercício 18: Solicite ao usuário o comprimento dos lados de um retângulo e calcule o perímetro do retângulo.</summary>
+                    <p>print("Calcular a Area de um Rertângulo: ") <br>
+base= float(input("Insira a Base do retângulo: ")) <br>
+altura= float(input("Insira a Altura do retângulo: ")) <br>
+print("O perimeto do retângulo é :",base*altura)</p>
+                </details>
+                 <details>
+                    <summary>Exercício 19: Peça ao usuário para digitar dois números e exiba o resultado da multiplicação dos dois números pelo quadrado do primeiro número.</summary>
+                    <p>a= float(input("Insira o valor de A: ")) <br>
+b= float(input("Insira o valor de B: ")) <br>
+raiz= a** 2 <br>
+print(f"O resultado de a*b * a raiz de a =",a*b*raiz)</p>
+                </details>
+                 <details>
+                    <summary>Exercício 20: Solicite ao usuário a base e a altura de um paralelogramo e calcule a área do paralelogramo.</summary>
+                    <p>print("Calcular a Area de um paralelograma: ") <br>
+base= float(input("Insira a Base do paralelograma: ")) <br>
+altura= float(input("Insira a Altura do paralelograma: ")) <br>
+print("O perimeto do paralelograma é :",base*altura)</p>
+                </details>  
+            </section>
+            
+        
+         </div>
+
+</body>
+</html>

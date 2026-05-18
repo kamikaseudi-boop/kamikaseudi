@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios05-Python</title>
+</head><link rel="stylesheet" href="style.css">
+<body>
+   
+    <h1>ADS-2026</h1><br>
+    <div class="container">
+        <nav>
+           <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="exercicios_Python.html">Exercicios Python</a></li>
+                <li><a href="fluxoframa.html">Fluxogramas</a></li>
+                <li><a href="https://login.fatra.edu.br/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26scope%3Dkatana%2520offline_access%2520offline_access%2520katana%2520offline_access%26client_id%3DPortalAcademico%26client_secret%3DcentrisPortalACDPassword%26state%3D123456789%26redirect_uri%3Dhttps%253A%252F%252Fportal.fatra.edu.br%252F">Portal Fatra</a></li>
+            </ul>
+
+         <div class="container1">
+            <section>
+
+                <details>
+                    <summary>Exercício 1: Crie um dicionário chamado aluno com as chaves nome, idade e nota, e os valores João, 20 e 8.5, respectivamente.</summary>
+                    <p>
+aluno = {"nome":"João", "idade":20, "nota":8.5}
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 2: Como você acessa o valor associado à chave nome no dicionário aluno?</summary>
+                    <p>
+print(aluno["nome"])
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 3: Como você adiciona uma nova chave curso com o valor Matemática ao dicionário aluno?</summary>
+                    <p>
+aluno["curso"] = "Matemática"
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 4: Como você remove a chave idade do dicionário aluno?</summary>
+                    <p>
+del aluno["idade"]
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 5: Como você verifica se a chave nota está presente no dicionário aluno?</summary>
+                    <p>
+print("nota" in aluno)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 6: Como você obtém todas as chaves do dicionário aluno?</summary>
+                    <p>
+print(aluno.keys())
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 7: Como você obtém todos os valores do dicionário aluno?</summary>
+                    <p>
+print(aluno.values())
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 8: Como você obtém todos os pares chave-valor do dicionário aluno?</summary>
+                    <p>
+print(aluno.items())
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 9: Como você limpa todos os elementos do dicionário aluno?</summary>
+                    <p>
+aluno.clear()
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 10: Como você obtém o valor associado à chave nome com um método que não gera erro se a chave não existir?</summary>
+                    <p>
+print(aluno.get("nome"))
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 11: Crie uma matriz 3x3 e inicialize todos os elementos com zero.</summary>
+                    <p>
+matriz = [[0,0,0],[0,0,0],[0,0,0]]
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 12: Acesse o elemento na segunda linha e terceira coluna da matriz matriz.</summary>
+                    <p>
+print(matriz[1][2])
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 13: Modifique o elemento na primeira linha e segunda coluna da matriz matriz para 10.</summary>
+                    <p>
+matriz[0][1] = 10
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 14: Calcule a soma de todos os elementos da matriz matriz.</summary>
+                    <p>
+print(sum(sum(linha) for linha in matriz))
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 15: Transponha a matriz matriz (troque linhas por colunas).</summary>
+                    <p>
+transposta = list(zip(*matriz))
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 16: Crie uma matriz identidade 4x4.</summary>
+                    <p>
+matriz = [[1 if i==j else 0 for j in range(4)] for i in range(4)]
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 17: Multiplique todos os elementos da matriz matriz por um escalar 2.</summary>
+                    <p>
+matriz = [[x*2 for x in linha] for linha in matriz]
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 18: Some duas matrizes A e B de mesmo tamanho e armazene o resultado na matriz C.</summary>
+                    <p>
+C = [[A[i][j] + B[i][j] for j in range(len(A[0]))] for i in range(len(A))]
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 19: Multiplique duas matrizes A (3x2) e B (2x3) e armazene o resultado na matriz C.</summary>
+                    <p>
+C = [[sum(A[i][k]*B[k][j] for k in range(len(B))) for j in range(len(B[0]))] for i in range(len(A))]
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 20: Calcule a soma dos elementos da diagonal principal da matriz matriz.</summary>
+                    <p>
+print(sum(matriz[i][i] for i in range(len(matriz))))
+                    </p>
+                </details>
+
+            </section>
+         </div>
+
+</body>
+</html>

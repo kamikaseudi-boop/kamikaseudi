@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(Imagens/pixies-technology-785742.jpg);background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+    
+    
+}
+h1{
+   position: absolute; left: 30px;
+    color: aliceblue;
+    
+    
+    
+}
+a{color: aliceblue;}
+a:hover{color: black;}
+
+.container{
+    width: 900px; height: 150px;
+   
+    background-color: transparent;
+}
+ul{position: relative;left: 33%;
+    color: aliceblue;
+    display: flex;/*colocar em linha os menu */
+    gap: 10px   ;/* espassamento entre a lista*/
+    padding: 20px;
+}
+li{
+    
+    background-color: transparent;
+    color: aliceblue    ;
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+      transition: transform 0.3s ease; /* Transição suave */
+
+}
+/* hover e para quando passar o mouse*/
+li:hover{
+    background-color: rgb(107, 2, 119);
+    color: black;
+    height:40px;
+    border-radius: 15px;
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
+
+
+
+}
+body{
+     
+     
+}
+.class{
+    
+    position:absolute; top: 200px;
+    width: 900px; height: 20px
+    background-color: rgb(15, 14, 14);
+    color: aliceblue;
+
+    
+    
+}
+.class01{
+    position: absolute;top: 230px;z-index: 1;left: 150px;
+    transform: scale(0.5);
+ 
+}
+
+img{
+    width: 900px;height: autox ;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.container1 {
+    position: absolute;left: 25%; top: 200px;
+    color: aliceblue;
+  
+
+}
+p{
+    color: red;
+    text-shadow: 15px;
+    position: relative;left: 60px;
+    
+    
+}
+p:hover{
+     background-color: rgb(246, 244, 244);
+    color: rgb(252, 7, 7);
+    height: 150px   ;
+    border-radius: 15px;
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
+    text-align: center;
+
+}
+iframe{
+    position: absolute;
+    left: 150px;
+    border-radius: 20px;
+}
+summary{
+        background-color: transparent;
+    color: aliceblue    ;
+    
+    padding: 10px 20px;
+    cursor: pointer;
+   
+      transition: transform 0.3s ease; /* Transição suave */
+
+}

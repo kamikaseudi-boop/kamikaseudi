@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios03-Python</title>
+</head><link rel="stylesheet" href="style.css">
+<body>
+   
+    <h1>ADS-2026</h1><br>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="exercicios_Python.html">Exercicios Python</a></li>
+                <li><a href="fluxoframa.html">Fluxogramas</a></li>
+                <li><a href="https://login.fatra.edu.br/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26scope%3Dkatana%2520offline_access%2520offline_access%2520katana%2520offline_access%26client_id%3DPortalAcademico%26client_secret%3DcentrisPortalACDPassword%26state%3D123456789%26redirect_uri%3Dhttps%253A%252F%252Fportal.fatra.edu.br%252F">Portal Fatra</a></li>
+            </ul>
+
+         <div class="container1">
+            <section>
+
+                <details>
+                    <summary>Exercício 1: Peça ao usuário para digitar um número e exiba todos os números de 1 até o número digitado usando um loop for.</summary>
+                    <p>
+n = int(input()) <br>
+for i in range(1, n+1): <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 2: Solicite ao usuário um número e exiba a soma de todos os números de 1 até o número digitado usando um loop for.</summary>
+                    <p>
+n = int(input()) <br>
+soma = 0 <br>
+
+for i in range(1, n+1): <br>
+soma += i <br>
+
+print(soma)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 3: Peça ao usuário um número e exiba os números pares de 1 até o número digitado usando um loop for.</summary>
+                    <p>
+n = int(input()) <br>
+
+for i in range(1, n+1): <br>
+if i % 2 == 0: <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 4: Solicite ao usuário um número e exiba a tabuada desse número usando um loop for.</summary>
+                    <p>
+n = int(input()) <br>
+
+for i in range(1, 11): <br>
+print(n, "x", i, "=", n*i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 5: Peça ao usuário para digitar uma palavra e exiba cada letra da palavra em uma linha separada usando um loop for.</summary>
+                    <p>
+palavra = input() <br>
+
+for letra in palavra: <br>
+print(letra)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 6: Solicite ao usuário para digitar 5 números e exiba a soma desses números usando um loop for.</summary>
+                    <p>
+soma = 0 <br>
+
+for i in range(5): <br>
+num = int(input()) <br>
+soma += num <br>
+
+print(soma)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 7: Peça ao usuário um número e exiba o fatorial desse número usando um loop for.</summary>
+                    <p>
+n = int(input()) <br>
+fat = 1 <br>
+
+for i in range(1, n+1): <br>
+fat *= i <br>
+
+print(fat)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 8: Solicite ao usuário um número e exiba a sequência de Fibonacci até o número digitado usando um loop for.</summary>
+                    <p>
+n = int(input()) <br>
+a, b = 0, 1 <br>
+
+for i in range(n): <br>
+print(a) <br>
+a, b = b, a+b
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 9: Peça ao usuário um número e exiba todos os divisores desse número usando um loop for.</summary>
+                    <p>
+n = int(input()) <br>
+
+for i in range(1, n+1): <br>
+if n % i == 0: <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 10: Solicite ao usuário para digitar 10 números e exiba o maior número digitado usando um loop for.</summary>
+                    <p>
+maior = 0 <br>
+
+for i in range(10): <br>
+num = int(input()) <br>
+if num > maior: <br>
+maior = num <br>
+
+print(maior)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 11: Exiba todos os números de 0 a 20 usando range.</summary>
+                    <p>
+for i in range(21): <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 12: Exiba todos os números pares de 0 a 20 usando range.</summary>
+                    <p>
+for i in range(0, 21, 2): <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 13: Exiba todos os números ímpares de 1 a 20 usando range.</summary>
+                    <p>
+for i in range(1, 21, 2): <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 14: Exiba a tabuada do 5 usando range.</summary>
+                    <p>
+for i in range(1, 11): <br>
+print("5 x", i, "=", 5*i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 15: Exiba todos os múltiplos de 3 entre 0 e 30 usando range.</summary>
+                    <p>
+for i in range(0, 31, 3): <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 16: Exiba os números de 10 a 1 em ordem decrescente usando range.</summary>
+                    <p>
+for i in range(10, 0, -1): <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 17: Exiba os números de 5 a 50 com incrementos de 5 usando range.</summary>
+                    <p>
+for i in range(5, 51, 5): <br>
+print(i)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 18: Exiba a soma dos números de 1 a 100 usando range.</summary>
+                    <p>
+soma = 0 <br>
+
+for i in range(1, 101): <br>
+soma += i <br>
+
+print(soma)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 19: Exiba a soma dos números pares de 1 a 100 usando range.</summary>
+                    <p>
+soma = 0 <br>
+
+for i in range(2, 101, 2): <br>
+soma += i <br>
+
+print(soma)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 20: Exiba a soma dos números ímpares de 1 a 100 usando range.</summary>
+                    <p>
+soma = 0 <br>
+
+for i in range(1, 101, 2): <br>
+soma += i <br>
+
+print(soma)
+                    </p>
+                </details>
+
+            </section>
+         </div>
+
+</body>
+</html>

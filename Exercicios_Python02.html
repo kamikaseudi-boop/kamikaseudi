@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios02-Python</title>
+</head><link rel="stylesheet" href="style.css">
+<body>
+   
+    <h1>ADS-2026</h1><br>
+    <div class="container">
+        <nav>
+            <ul>
+               <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="exercicios_Python.html">Exercicios Python</a></li>
+                <li><a href="fluxoframa.html">Fluxogramas</a></li>
+                <li><a href="https://login.fatra.edu.br/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Dcode%26scope%3Dkatana%2520offline_access%2520offline_access%2520katana%2520offline_access%26client_id%3DPortalAcademico%26client_secret%3DcentrisPortalACDPassword%26state%3D123456789%26redirect_uri%3Dhttps%253A%252F%252Fportal.fatra.edu.br%252F">Portal Fatra</a></li>
+            </ul>
+            </ul>
+
+         <div class="container1">
+            <section>
+
+                <details>
+                    <summary>Exercício 1: Peça ao usuário um número e verifique se ele é positivo, negativo ou zero.</summary>
+                    <p>
+numero= float(input("Insira o Numero: ")) <br>
+if numero >0 : <br>
+print("Positivo") <br>
+elif numero < 0: <br>
+print("Negativo") <br>
+else: <br>
+print("Zero")
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 2: Solicite ao usuário sua idade e verifique se ele é maior de idade (18 anos ou mais).</summary>
+                    <p>
+idade=float(input("Insira sua Idade:")) <br>
+if idade >= 18: <br>
+print("Maior de idade") <br>
+else: <br>
+print("Menor de idade")
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 3: Solicite ao usuário uma letra e verifique se ela é uma vogal ou consoante.</summary>
+                    <p>
+ex= input("Insira a letra:").lower() <br>
+if ex=="a" or ex=="e" or ex=="i" or ex=="o" or ex=="u": <br>
+print("Vogal") <br>
+else: <br>
+print("Consoante")
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 4: Peça ao usuário três números e verifique se eles formam um triângulo (soma de dois lados deve ser maior que o terceiro lado).</summary>
+                    <p>
+L1= float(input()) <br>
+L2= float(input()) <br>
+L3= float(input()) <br>
+
+if L1+L2>L3 and L2+L3>L1 and L3+L1>L2: <br>
+print("Forma Triângulo") <br>
+else: <br>
+print("Não Forma")
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 5: Solicite ao usuário um ano e verifique se é um ano bissexto.</summary>
+                    <p>
+ano= int(input()) <br>
+if (ano%4==0 and ano%100!=0) or (ano%400==0): <br>
+print("Bissexto") <br>
+else: <br>
+print("Não é bissexto")
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 6: Peça ao usuário uma senha e verifique se ela é igual a uma senha predefinida.</summary>
+                    <p>
+senha = input() <br>
+if senha == "1234": <br>
+print("Senha correta") <br>
+else: <br>
+print("Senha incorreta")
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 7: Solicite ao usuário três números e verifique se eles estão em ordem crescente.</summary>
+                    <p>
+a = int(input()) <br>
+b = int(input()) <br>
+c = int(input()) <br>
+
+if a < b < c: <br>
+print("Ordem crescente") <br>
+else: <br>
+print("Não está")
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 8: Peça ao usuário um número e verifique se ele é par ou ímpar.</summary>
+                    <p>
+num = int(input()) <br>
+if num % 2 == 0: <br>
+print("Par") <br>
+else: <br>
+print("Ímpar")
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 9: Solicite ao usuário dois números e uma operação (soma, subtração, multiplicação, divisão) e realize a operação solicitada.</summary>
+                    <p>
+a = float(input()) <br>
+b = float(input()) <br>
+op = input() <br>
+
+if op == "+": <br>
+print(a+b) <br>
+elif op == "-": <br>
+print(a-b) <br>
+elif op == "*": <br>
+print(a*b) <br>
+elif op == "/": <br>
+print(a/b)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 10: Peça ao usuário para digitar um número e exiba todos os números de 1 até o número digitado usando um loop while.</summary>
+                    <p>
+n = int(input()) <br>
+i = 1 <br>
+while i <= n: <br>
+print(i) <br>
+i += 1
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 11: Solicite ao usuário um número e exiba a soma de todos os números de 1 até o número digitado usando um loop while.</summary>
+                    <p>
+n = int(input()) <br>
+i = 1 <br>
+soma = 0 <br>
+
+while i <= n: <br>
+soma += i <br>
+i += 1 <br>
+
+print(soma)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 12: Peça ao usuário um número e exiba os números pares de 1 até o número digitado usando um loop while.</summary>
+                    <p>
+n = int(input()) <br>
+i = 1 <br>
+
+while i <= n: <br>
+if i % 2 == 0: <br>
+print(i) <br>
+i += 1
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 13: Solicite ao usuário um número e exiba a tabuada desse número usando um loop while.</summary>
+                    <p>
+n = int(input()) <br>
+i = 1 <br>
+
+while i <= 10: <br>
+print(n, "x", i, "=", n*i) <br>
+i += 1
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 14: Peça ao usuário para digitar uma palavra e exiba cada letra da palavra em uma linha separada usando um loop while.</summary>
+                    <p>
+palavra = input() <br>
+i = 0 <br>
+
+while i < len(palavra): <br>
+print(palavra[i]) <br>
+i += 1
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 15: Solicite ao usuário para digitar números até que o número 0 seja digitado. Ao final, exiba a soma dos números digitados.</summary>
+                    <p>
+soma = 0 <br>
+num = 1 <br>
+
+while num != 0: <br>
+num = int(input()) <br>
+soma += num <br>
+
+print(soma)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 16: Peça ao usuário um número e exiba o fatorial desse número usando um loop while.</summary>
+                    <p>
+n = int(input()) <br>
+fat = 1 <br>
+
+while n > 0: <br>
+fat *= n <br>
+n -= 1 <br>
+
+print(fat)
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 17: Solicite ao usuário um número e exiba a sequência de Fibonacci até o número digitado usando um loop while.</summary>
+                    <p>
+n = int(input()) <br>
+a, b = 0, 1 <br>
+
+while a <= n: <br>
+print(a) <br>
+a, b = b, a+b
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 18: Peça ao usuário um número e exiba todos os divisores desse número usando um loop while.</summary>
+                    <p>
+n = int(input()) <br>
+i = 1 <br>
+
+while i <= n: <br>
+if n % i == 0: <br>
+print(i) <br>
+i += 1
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Exercício 19: Solicite ao usuário para digitar uma senha até que a senha correta seja digitada. A senha correta é "1234".</summary>
+                    <p>
+senha = "" <br>
+
+while senha != "1234": <br>
+senha = input() <br>
+
+print("Senha correta")
+                    </p>
+                </details>
+
+            </section>
+         </div>
+
+</body>
+</html>
